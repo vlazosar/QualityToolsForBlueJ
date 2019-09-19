@@ -3,7 +3,11 @@
 
 ## Vision Statement
 
-The goal of this project is a single BlueJ extension that integrates multiple software quality assessment tools, facilitates addition of new quality assessment tools, and provides a user interface appropriate to beginning programmers and with an internally consistent look-and-feel.
+This project seeks to support development and maintenance of a single BlueJ extension that
+- integrates and manages multiple software quality assessment tools;
+- provides a cohesive user experience for interacting with those tools within BlueJ;
+- facilitates maintenance of the functionality of the extension with future version of the tools, BlueJ, and Java; and
+- provides a smooth path for the addition of new quality assessment tools.
 
 
 ## Stakeholders
