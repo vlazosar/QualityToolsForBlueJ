@@ -10,5 +10,5 @@ The goal of this project is a single BlueJ extension that integrates multiple so
 
 *   Users (BlueJ users: student novice programmers)
 *   Educators
-*   Developers and Maintainers
+*   Developers (project maintainers)
 *   Quality Engineers
