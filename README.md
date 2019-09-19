@@ -2,4 +2,9 @@
 
 Goal: BlueJ extension that integrates quality assessment tools
 
-### [License](LICDENSE.md)
+### [License](LICDENSE)
+
+### [Vision & Stakeholders](Vision.md)
+### [User Stories](UserStories.md)
+
+### [Coding Convention](ConventionGuide.md)
