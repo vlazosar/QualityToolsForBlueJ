@@ -30,7 +30,7 @@
    <td>As a user, I want to easily get this product running on my computer so that I may use it.
    </td>
    <td><ol>
-      <li>User documentation fully describes and explains all installation steps.</li>
+      <li>User documentation describes and explains all installation steps.</li>
       <li>The product installation conforms to the norms and standards for BlueJ extensions.</li></ol>
    </td>
   </tr>
