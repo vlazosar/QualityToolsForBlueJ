@@ -13,4 +13,4 @@ If a topic is not covered any guides, use best judgement and consider opening a 
 
 ## Project-Specific Conventions
 
-Multiple authors are indicated using multiple @author tags, one tag per line, one author per tag.
+- Multiple authors are indicated using multiple @author tags, one tag per line, one author per tag.
