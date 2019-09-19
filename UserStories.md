@@ -22,7 +22,8 @@
    <td>As a user, I want to be able to easily download and install the Quality Assessment Tools for BlueJ product so that I may install the product for my own use.
    </td>
    <td><ol>
-      <li>There are clear user-level instructions for downloading and installing the product.</li>
+      <li>User-level instructions for downloading and installing the product are provided.</li>
+      <li>To Do: Metric for "easily"</li>
    </ol></td>
   </tr>
   <tr>
