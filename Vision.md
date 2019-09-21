@@ -10,9 +10,9 @@ This project seeks to support development and maintenance of a single BlueJ exte
 - provides a smooth path for the addition of new quality assessment tools.
 
 
-## Stakeholders
+## Stakeholder Types
 
-*   Users (BlueJ users: student novice programmers)
-*   Educators
-*   Developers (project maintainers)
-*   Quality Engineers
+*   User (BlueJ users: students, novice programmers)
+*   Educator (instructors, mentors, tutors)
+*   Sysadmin (system administrators)
+*   Maintainer (project developers and quality engineers)
