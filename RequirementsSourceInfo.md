@@ -1,4 +1,4 @@
-# Historical Background
+# Previous Project - Requirements Info
 The following information was developed in an effort to articulate goals for a similar project, not this Quality Tools for BlueJ project.  These stories are provided to stimulate ideas only and should not be considered as either effective or valid for this project.
 
 ## Glossary
