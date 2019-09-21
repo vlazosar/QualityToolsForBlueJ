@@ -5,6 +5,6 @@ Goal: BlueJ extension that integrates quality assessment tools
 ### [License](LICENSE)
 
 ### [Vision & Stakeholders](Vision.md)
-### [User Stories](UserStories.md)
+#### [Previous Project Info](RequirementsSourceInfo.md)
 
 ### [Coding Convention](ConventionGuide.md)
