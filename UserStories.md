@@ -1,11 +1,9 @@
-# Quality Assessment Tools for BlueJ
-
+# Historical Background
+The following information was developed in an effort to articulate goals for a similar project, not this Quality Tools for BlueJ project.  These stories are provided to stimulate ideas only and should not be considered as either effective or valid for this project.
 
 ## Glossary
 
 *   product :: the BlueJ extension for the Quality Assessment Tools for BlueJ project
-
-
 
 ## User Stories
 
