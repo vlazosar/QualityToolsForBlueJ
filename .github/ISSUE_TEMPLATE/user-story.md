@@ -9,6 +9,7 @@ assignees: ''
 
 # User Story
 ### Essential components
+- [ ] Issue title describes the user story
 - [ ] Stakeholder type is identified
 - [ ] Outcome is described
 - [ ] Rationale is explicit
