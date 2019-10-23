@@ -1,0 +1,33 @@
+# User Story
+### Essential components
+- [ ] Title describes the story
+- [ ] Stakeholder type is identified
+- [ ] Outcome is described
+- [ ] Rationale is explicit
+- [ ] Acceptance criteria are verifiable and from the perspective of the stakeholder
+
+## Story
+**As a**  maintainer
+**I want**  to know how to use the chosen build environment _____
+**so that**  work on the codebase can begin.
+
+## Acceptance Criteria
+
+* Information provided can be located from within the repository.
+* No 3rd-party programs are required to access the information.
+* Documentation is comprehensive but not exhaustive.
+
+### Scenario 1
+**Given**  documentation on using _________
+**then**  maintainers should feel comfortable building the working codebase.
+
+
+## Supporting Information
+Useful links to several _________ tutorials include:
+LINK TO ____________
+
+## Dependencies
+### Depends On
+_(Issues on which this story depends)_
+### Dependents
+_(Issues dependent on this story)_
