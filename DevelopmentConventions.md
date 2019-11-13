@@ -14,11 +14,11 @@ _____
 ### Doc Link: https://docs.gradle.org/current/userguide/organizing_gradle_projects.html
 ```
 .
-├── .github/ISSUE_TEMPLATE  	# Templates for user stories and bug reports
-├── archive/decisionNotes       # Archives folder for previous project decisions
-├── docs                    	# Documentation files
-├── gradle/wrapper		# Gradle wrapper script
-├── src                     	# Source files
+├── .github/ISSUE_TEMPLATE  	# Directory holding templates for user stories and bug reports
+├── archive/decisionNotes       # Archives directory for previous project decisions
+├── docs                    	# Documentation files directory
+├── gradle/wrapper		# Gradle wrapper script directory
+├── src                     	# Source files directory
 ├── .gitignore
 ├── DevelopmentConventions.md	# Development and maintenance conventions document
 ├── LICENSE
@@ -37,7 +37,7 @@ Github Issue Templates
 .
 ├── ...
 ├── .github
-│   ├──ISSUE_TEMPLATE  		# Templates for user stories and bug reports
+│   ├──ISSUE_TEMPLATE  		
 │      ├── bug_report.md     	 # Bug report template
 │      ├── user-story.md      	  # User story template
 │   └── ...                 	# etc.
@@ -49,10 +49,10 @@ Archive
 .
 ├── ...
 ├── archive
-│   ├── decisionNotes  		# Templates for user stories and bug reports
+│   ├── decisionNotes  		
+|      ├── AntGradleComparison.md   # Comparison report of Ant vs Gradle build tools
 │      ├── IvyAntGradleMavenComparisonReport.md     	 
-|                                 # Comparison report of Ant vs Gradle vs Ivy build tools
-│      ├── AntGradleComparison.md   # Comparison report of Ant vs Gradle build tools
+|                                    # Comparison report of Ant vs Gradle vs Ivy build tools
 │   └── ...                 	# etc.
 └── ...
 ```
@@ -61,8 +61,8 @@ Documentation
 
 .
 ├── ...
-├── docs                    	# Documentation files
-│   ├── README.md            	 # Read me explaining project objective
+├── docs                    	
+│   ├── README.md            	 # Read Me explaining project objective
 │   ├── _config.yml           	  # Sets theme jekyll-theme-tactile
 │   └── ...                 	# etc.
 └── ...
@@ -73,8 +73,8 @@ Gradle Wrapper
 ├── ...
 ├── gradle 			# Gradle wrapper script
 │   ├── wrapper
-│      ├── gradle-wrapper.jar        # Gradle wrapper script jar
-│      ├── gradle-wrapper.properties  # Gradle wrapper script properties
+│      ├── gradle-wrapper.jar        # Holds gradle packages and distributions.
+│      ├── gradle-wrapper.properties # Holds directories to download gradle distrubutions and install them.
 │   └── ...                 	# etc.
 └── ...
 ```
@@ -89,7 +89,7 @@ Source
 |          ├── edu/msudenver/bluejext/qualitytools/
 |             ├── Library.java
 |             ├── README.txt
-│   ├── test 			 # Java test class files
+│   ├── test 			   # Java test class files
 │	   ├── java
 │	      ├── HelloWorldTest.java
 |          ├── edu/msudenver/bluejext/qualitytools/
