@@ -8,27 +8,25 @@ for development and maintenance of the _Quality Tools for BlueJ_ software produc
 * [Build Environment](#Build-Environment)
 
 _____ 
-## Project File Hierarchy 
+## Repository Structure 
 
-### General structure for file hierarchy in gradle build environment.
-### Doc Link: https://docs.gradle.org/current/userguide/organizing_gradle_projects.html
 ```
 .
-├── .github/ISSUE_TEMPLATE  	# Directory holding templates for user stories and bug reports
-├── archive/decisionNotes       # Archives directory for previous project decisions
-├── docs                    	# Documentation files directory
-├── gradle/wrapper		# Gradle wrapper script directory
-├── src                     	# Source files directory
-├── .gitignore
-├── DevelopmentConventions.md	# Development and maintenance conventions document
-├── LICENSE
+├── .github/ISSUE_TEMPLATE/  	# Templates for new issues (e.g., user stories, bug reports)
+├── archive/                    # Historical artifacts
+├── docs/                    	# GitHub Pages website content
+├── gradle/        		# See Gradle documentation
+├── src/                     	# Source files
+├── .gitignore                  # Directories and file types to be ignored by git
+├── DevelopmentConventions.md	# Development and maintenance conventions
+├── LICENSE                     # Open source license file
 ├── README.md
-├── RequirementsSourceInfo.md	# Guide for creating similar project development goals
-├── Vision.md			# States the project goal and stakeholder types
-├── build.gradle		# Gradle files
-├── gradlew
-├── gradlew.bat
-├── settings.gradle	
+├── RequirementsSourceInfo.md	# Goals of previous, related project
+├── Vision.md                   # Vision statement and stakeholder identification
+├── build.gradle                # See Gradle documentation
+├── gradlew                     # See Gradle documentation
+├── gradlew.bat                 # See Gradle documentation
+├── settings.gradle	        # See Gradle documentation
 └── toolsForIntegration.md      # List of code analysis tools to be implemented and descriptions
 ```
 ```
@@ -38,9 +36,9 @@ Github Issue Templates
 ├── ...
 ├── .github
 │   ├──ISSUE_TEMPLATE  		
-│      ├── bug_report.md     	 # Bug report template
-│      ├── user-story.md      	  # User story template
-│   └── ...                 	# etc.
+│      ├── bug_report.md       # Bug report template
+│      ├── user-story.md       # User story template
+│   └── ...                    # etc.
 └── ...
 ```
 ```
@@ -48,56 +46,53 @@ Archive
 
 .
 ├── ...
-├── archive
-│   ├── decisionNotes  		
-|      ├── AntGradleComparison.md   # Comparison report of Ant vs Gradle build tools
+├── archive                         # Historical artifacts
+│   ├── decisionNotes               # Documentation that informed project decision-making
+|      ├── AntGradleComparison.md   # Comparison report of Ant and Gradle build tools
 │      ├── IvyAntGradleMavenComparisonReport.md     	 
-|                                    # Comparison report of Ant vs Gradle vs Ivy build tools
-│   └── ...                 	# etc.
+|                                   # Comparison report of Ant, Ivy, Gradle and Maven build tools
+│   └──
 └── ...
 ```
 ```
-Documentation
+GitHub Pages Website
 
 .
 ├── ...
-├── docs                    	
-│   ├── README.md            	 # Read Me explaining project objective
-│   ├── _config.yml           	  # Sets theme jekyll-theme-tactile
-│   └── ...                 	# etc.
+├── docs                    # GitHub Pages website content	
+│   ├── README.md           # Project overview
+│   ├── _config.yml         # Jekyll configuration
+│   └── ...                 # etc.
 └── ...
 ```
 ```
 Gradle Wrapper
 
 ├── ...
-├── gradle 			# Gradle wrapper script
-│   ├── wrapper
-│      ├── gradle-wrapper.jar        # Holds gradle packages and distributions.
-│      ├── gradle-wrapper.properties # Holds directories to download gradle distrubutions and install them.
-│   └── ...                 	# etc.
+├── gradle 			# See Gradle documentation
+│   ├── wrapper                      # Gradle Wrapper
+│      ├── gradle-wrapper.jar        # Gradle packages and distributions
+│      ├── gradle-wrapper.properties # Gradle Wrapper configuration
+│   └──
 └── ...
 ```
 ```
 Source
 
 ├── ...
-├── src 			# Source files
-│   ├── main    		 # Java main class files
+├── src 			# Project source code files
+│   ├── main    		# Project implementation source code
 │	   ├── java 
-|             ├── HelloWorld.java
 |          ├── edu/msudenver/bluejext/qualitytools/
-|             ├── Library.java
-|             ├── README.txt
-│   ├── test 			   # Java test class files
+│   └──
+│   ├── test 			# Project testing source code
 │	   ├── java
-│	      ├── HelloWorldTest.java
 |          ├── edu/msudenver/bluejext/qualitytools/
-|             ├── LibraryTest.java
-│   └── ...                 	# etc.
+│   └──
 └── ...
 ```
-Credit to [https://github.com/kriasoft] for Folder Structure Convention Outline
+Gradle structure based on [Organizing Gradle Projects](https://docs.gradle.org/current/userguide/organizing_gradle_projects.html)
+
 _____ 
 ## Agile Principles
 
