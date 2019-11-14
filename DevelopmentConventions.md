@@ -6,92 +6,7 @@ for development and maintenance of the _Quality Tools for BlueJ_ software produc
 * [Agile Principles](#Agile-Principles)
 * [Coding Convention Guide](#Coding-Convention-Guide)
 * [Build Environment](#Build-Environment)
-
-_____ 
-## Repository Structure 
-
-```
-.
-├── .github/ISSUE_TEMPLATE/  	# Templates for new issues (e.g., user stories, bug reports)
-├── archive/                    # Historical artifacts
-├── docs/                    	# GitHub Pages website content
-├── gradle/        		# See Gradle documentation
-├── src/                     	# Source files
-├── .gitignore                  # Directories and file types to be ignored by git
-├── DevelopmentConventions.md	# Development and maintenance conventions
-├── LICENSE                     # Open source license file
-├── README.md
-├── RequirementsSourceInfo.md	# Goals of previous, related project
-├── Vision.md                   # Vision statement and stakeholder identification
-├── build.gradle                # See Gradle documentation
-├── gradlew                     # See Gradle documentation
-├── gradlew.bat                 # See Gradle documentation
-├── settings.gradle	        # See Gradle documentation
-└── toolsForIntegration.md      # List of code analysis tools to be implemented and descriptions
-```
-```
-Github Issue Templates
-
-.
-├── ...
-├── .github
-│   ├──ISSUE_TEMPLATE  		
-│      ├── bug_report.md       # Bug report template
-│      ├── user-story.md       # User story template
-│   └── ...                    # etc.
-└── ...
-```
-```
-Archive
-
-.
-├── ...
-├── archive                         # Historical artifacts
-│   ├── decisionNotes               # Documentation that informed project decision-making
-|      ├── AntGradleComparison.md   # Comparison report of Ant and Gradle build tools
-│      ├── IvyAntGradleMavenComparisonReport.md     	 
-|                                   # Comparison report of Ant, Ivy, Gradle and Maven build tools
-│   └──
-└── ...
-```
-```
-GitHub Pages Website
-
-.
-├── ...
-├── docs                    # GitHub Pages website content	
-│   ├── README.md           # Project overview
-│   ├── _config.yml         # Jekyll configuration
-│   └── ...                 # etc.
-└── ...
-```
-```
-Gradle Wrapper
-
-├── ...
-├── gradle 			# See Gradle documentation
-│   ├── wrapper                      # Gradle Wrapper
-│      ├── gradle-wrapper.jar        # Gradle packages and distributions
-│      ├── gradle-wrapper.properties # Gradle Wrapper configuration
-│   └──
-└── ...
-```
-```
-Source
-
-├── ...
-├── src 			# Project source code files
-│   ├── main    		# Project implementation source code
-│	   ├── java 
-|          ├── edu/msudenver/bluejext/qualitytools/
-│   └──
-│   ├── test 			# Project testing source code
-│	   ├── java
-|          ├── edu/msudenver/bluejext/qualitytools/
-│   └──
-└── ...
-```
-Gradle structure based on [Organizing Gradle Projects](https://docs.gradle.org/current/userguide/organizing_gradle_projects.html)
+* [Repository Structure](#Repository-Structure)
 
 _____ 
 ## Agile Principles
@@ -191,3 +106,89 @@ Provides continuous integration code coverage analysis
 Provides robust code coverage analysis
 #### [AccessLint](https://www.accesslint.com/)
 Brings automated web accessibility testing into your development workflow
+
+_____ 
+## Repository Structure 
+
+```
+.
+├── .github/ISSUE_TEMPLATE/  	# Templates for new issues (e.g., user stories, bug reports)
+├── archive/                    # Historical artifacts
+├── docs/                    	# GitHub Pages website content
+├── gradle/        		# See Gradle documentation
+├── src/                     	# Source files
+├── .gitignore                  # Directories and file types to be ignored by git
+├── DevelopmentConventions.md	# Development and maintenance conventions
+├── LICENSE                     # Open source license file
+├── README.md
+├── RequirementsSourceInfo.md	# Goals of previous, related project
+├── Vision.md                   # Vision statement and stakeholder identification
+├── build.gradle                # See Gradle documentation
+├── gradlew                     # See Gradle documentation
+├── gradlew.bat                 # See Gradle documentation
+├── settings.gradle	        # See Gradle documentation
+└── toolsForIntegration.md      # List of code analysis tools to be implemented and descriptions
+```
+```
+Github Issue Templates
+
+.
+├── ...
+├── .github
+│   ├──ISSUE_TEMPLATE  		
+│      ├── bug_report.md       # Bug report template
+│      ├── user-story.md       # User story template
+│   └── ...                    # etc.
+└── ...
+```
+```
+Archive
+
+.
+├── ...
+├── archive                         # Historical artifacts
+│   ├── decisionNotes               # Documentation that informed project decision-making
+|      ├── AntGradleComparison.md   # Comparison report of Ant and Gradle build tools
+│      ├── IvyAntGradleMavenComparisonReport.md     	 
+|                                   # Comparison report of Ant, Ivy, Gradle and Maven build tools
+│   └──
+└── ...
+```
+```
+GitHub Pages Website
+
+.
+├── ...
+├── docs                    # GitHub Pages website content	
+│   ├── README.md           # Project overview
+│   ├── _config.yml         # Jekyll configuration
+│   └── ...                 # etc.
+└── ...
+```
+```
+Gradle Wrapper
+
+├── ...
+├── gradle 			# See Gradle documentation
+│   ├── wrapper                      # Gradle Wrapper
+│      ├── gradle-wrapper.jar        # Gradle packages and distributions
+│      ├── gradle-wrapper.properties # Gradle Wrapper configuration
+│   └──
+└── ...
+```
+```
+Source
+
+├── ...
+├── src 			# Project source code files
+│   ├── main    		# Project implementation source code
+│	   ├── java 
+|          ├── edu/msudenver/bluejext/qualitytools/
+│   └──
+│   ├── test 			# Project testing source code
+│	   ├── java
+|          ├── edu/msudenver/bluejext/qualitytools/
+│   └──
+└── ...
+```
+Gradle structure based on [Organizing Gradle Projects](https://docs.gradle.org/current/userguide/organizing_gradle_projects.html)
