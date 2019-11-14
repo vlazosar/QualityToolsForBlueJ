@@ -2,41 +2,102 @@
 
 This document describes intended and preferred conventions
 for development and maintenance of the _Quality Tools for BlueJ_ software product.
-* [Gradle File Hierarchy](#Gradle-File-Hierarchy)
+* [Project File Hierarchy](#Project-File-Hierarchy)
 * [Agile Principles](#Agile-Principles)
 * [Coding Convention Guide](#Coding-Convention-Guide)
 * [Build Environment](#Build-Environment)
 
 _____ 
-## Gradle File Hierarchy 
+## Project File Hierarchy 
 
 ### General structure for file hierarchy in gradle build environment.
 ### Doc Link: https://docs.gradle.org/current/userguide/organizing_gradle_projects.html
+```
+.
+├── .github/ISSUE_TEMPLATE  	# Directory holding templates for user stories and bug reports
+├── archive/decisionNotes       # Archives directory for previous project decisions
+├── docs                    	# Documentation files directory
+├── gradle/wrapper		# Gradle wrapper script directory
+├── src                     	# Source files directory
+├── .gitignore
+├── DevelopmentConventions.md	# Development and maintenance conventions document
+├── LICENSE
+├── README.md
+├── RequirementsSourceInfo.md	# Guide for creating similar project development goals
+├── Vision.md			# States the project goal and stakeholder types
+├── build.gradle		# Gradle files
+├── gradlew
+├── gradlew.bat
+├── settings.gradle	
+└── toolsForIntegration.md      # List of code analysis tools to be implemented and descriptions
+```
+```
+Github Issue Templates
 
-        QualityToolsForBlueJ
-        ├── build.gradle
-        │
-        ├── gradle
-        │   └── integration-test.gradle
-        │
-        ├── gradlew*    (Use gradlew to ensure project version of gradle is declared.)
-        │
-        ├── settings.gradle
-        │
-        └── src         (Source code for compilation goes in main or test.)
-            │
-            ├── main 
-            │   │
-            │   └── java    (Place Java class files here for compilation.)
-            │       │
-            │       └── HelloWorld.java
-            │
-            └── test
-                │
-                └── java    (Place Java test class files here for compilation.)  
-                    │
-                    └── HelloWorldTest.java
-            
+.
+├── ...
+├── .github
+│   ├──ISSUE_TEMPLATE  		
+│      ├── bug_report.md     	 # Bug report template
+│      ├── user-story.md      	  # User story template
+│   └── ...                 	# etc.
+└── ...
+```
+```
+Archive
+
+.
+├── ...
+├── archive
+│   ├── decisionNotes  		
+|      ├── AntGradleComparison.md   # Comparison report of Ant vs Gradle build tools
+│      ├── IvyAntGradleMavenComparisonReport.md     	 
+|                                    # Comparison report of Ant vs Gradle vs Ivy build tools
+│   └── ...                 	# etc.
+└── ...
+```
+```
+Documentation
+
+.
+├── ...
+├── docs                    	
+│   ├── README.md            	 # Read Me explaining project objective
+│   ├── _config.yml           	  # Sets theme jekyll-theme-tactile
+│   └── ...                 	# etc.
+└── ...
+```
+```
+Gradle Wrapper
+
+├── ...
+├── gradle 			# Gradle wrapper script
+│   ├── wrapper
+│      ├── gradle-wrapper.jar        # Holds gradle packages and distributions.
+│      ├── gradle-wrapper.properties # Holds directories to download gradle distrubutions and install them.
+│   └── ...                 	# etc.
+└── ...
+```
+```
+Source
+
+├── ...
+├── src 			# Source files
+│   ├── main    		 # Java main class files
+│	   ├── java 
+|             ├── HelloWorld.java
+|          ├── edu/msudenver/bluejext/qualitytools/
+|             ├── Library.java
+|             ├── README.txt
+│   ├── test 			   # Java test class files
+│	   ├── java
+│	      ├── HelloWorldTest.java
+|          ├── edu/msudenver/bluejext/qualitytools/
+|             ├── LibraryTest.java
+│   └── ...                 	# etc.
+└── ...
+```
+Credit to [https://github.com/kriasoft] for Folder Structure Convention Outline
 _____ 
 ## Agile Principles
 
