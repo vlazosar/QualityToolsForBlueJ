@@ -85,27 +85,25 @@ Java code coverage library that can also analyze code complexity
 
 ### Design Complexity Assessment
 #### [JaCoCo](https://www.eclemma.org/jacoco/)
-Java code coverage library that can also analyze code complexity
- 
+Java test coverage and code complexity analyzer
  
 ### Source Code Shortcoming Identification
 #### [CheckStyle](https://checkstyle.sourceforge.io/)
-Examines source code and looks for violation of coding conventions.
+Identifies violation of coding conventions
 
 #### [PMD](https://pmd.github.io/)
-Finds programming flaws, such as unused variables and empty methods.
-
+Identifies common programming weaknesses 
 
 #### [Spotbugs](https://spotbugs.github.io/)
-Static analysis to look for bugs in Java code; a successor to FindBugs
+Identifies bugs and potentially buggy code in Java code; a successor to FindBugs
 _____
 _The following tools are under consideration for inclusion in the QT4BJ build environment._
 #### [Travis CI](https://travis-ci.com/)
-Provides continuous integration code coverage analysis
+Continuous integration
 #### [OpenClover](http://openclover.org/features)
-Provides robust code coverage analysis
+Code coverage analysis
 #### [AccessLint](https://www.accesslint.com/)
-Brings automated web accessibility testing into your development workflow
+Automated web accessibility testing
 
 _____ 
 ## Repository Structure 
