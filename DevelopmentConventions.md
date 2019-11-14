@@ -2,7 +2,6 @@
 
 This document describes intended and preferred conventions
 for development and maintenance of the _Quality Tools for BlueJ_ software product.
-* [Project File Hierarchy](#Project-File-Hierarchy)
 * [Agile Principles](#Agile-Principles)
 * [Coding Convention Guide](#Coding-Convention-Guide)
 * [Build Environment](#Build-Environment)
