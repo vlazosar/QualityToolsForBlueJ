@@ -7,8 +7,8 @@ ___
 
 This _Preferred Order of Integration_ establishes the relative priority of tools for inclusion in the extension, ordered from highest to lowest priority.
 
-1. Checkstyle
 1. JaCoCo
+1. Checkstyle
 1. PMD
 1. SpotBugs
 1. OpenClover
