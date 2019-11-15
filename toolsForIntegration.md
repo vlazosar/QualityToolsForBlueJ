@@ -31,9 +31,9 @@ ___
 
 ### PMD (https://pmd.github.io/)
 * Finds programming flaws, such as unused variables and empty methods.
-* [Copy-Paste Detector (CPD)](https://pmd.github.io/latest/pmd_userdocs_cpd.html)
-    * Copy/Paste Detector (CPD) is an add-on to and shipped with PMD.
+* Copy-Paste Detector (CPD) (https://pmd.github.io/latest/pmd_userdocs_cpd.html)
     * Locates duplicate code.
+    * CPD is an add-on to and shipped with PMD.
 
 ### Spotbugs (https://spotbugs.github.io/)
 * Free and open source
