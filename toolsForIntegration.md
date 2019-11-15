@@ -60,12 +60,6 @@ Determines how much of the code (lines and/or branches) were accessed during tes
 * Support for Spock
 * Must be integrated with the build and requires code recompilation
 
-## Continuous Integration Tools
-### Travis CI (https://travis-ci.com/)
-* Free for Open Source
-* Supports automated testing triggered by repository changes
-* Syncs with GitHub
-
 ___
 **Original Authors:**
 Yadap Adhikari,
