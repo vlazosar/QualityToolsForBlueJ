@@ -1,7 +1,7 @@
-                                          Swing
+#Swing
 Swing is a good user interface technoly for this blue J project.
 
-Definition of Swing: 
+Definition of Swing:
 
 Swing is a framework in java that create user interface.Since it is based on java language, it is object oriented. It contains various classes that extend one another, and the notion of extending a base class to add required functionality to that class is key to user interface programming in Java (and indeed in other languages). Another key part of Swing programming is the notion of listeners: classes or components that "listen out for" a particular event happening such as a button being clicked. And listeners are generally implemented as Java interfaces.The class of swing start with letter J. For example, JFrame, JButton, JPanel etc. Let's view thw swing components,
 
@@ -71,3 +71,20 @@ JEditorPane,JDaiLog,JDesktopPane, JTree, JProgressBar, JTogglebButton, JToolBar,
 
 Reasons to use swing in quality tool to Bluej:<br>
 It provides the graphical interface that work for all operating system. Since it is a object oriented, it is easy to implement. Listners does that extention has to do as long as it is clicked. It also has the method that close the window as long as it is clicked. Overall swing provides nice interface that interact with user.
+
+---
+
+# AWT
+
+## A brief description of the technology
+Abstract Window Toolkit (AWT) is a well known Java framework for creating graphical user interfaces.
+
+## Reason(s) why this technology is an appropriate possibility for this project
+* well documented and tested
+* familiar to many students/maintainers
+* relatively easy to learn
+* implemented using the Java language (which is the language used in this project)
+
+AWT is a part of Oracle's Java Foundation Classes, which makes it a trusted choice for creating graphical user interfaces. Because it's backed by Oracle, there is adequate documentation for maintainers to reference.
+
+[https://docs.oracle.com/javase/8/docs/technotes/guides/awt/](https://docs.oracle.com/javase/8/docs/technotes/guides/awt/)
